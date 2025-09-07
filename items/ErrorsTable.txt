@@ -1,0 +1,64 @@
+errors descriptions: https://github.com/dotnet/runtime/blob/main/src/coreclr/inc/corerror.xml
+com errors: https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes (p/a/k/a http://msdn.microsoft.com/library/default.asp?url=/library/en-us/com/error_9td2.asp)
+also can be useful https://github.com/dotnet/runtime/blob/main/src/libraries/Common/src/System/HResults.cs
+
+c - Completed
+i - InProgress
+n - NoProgress
+
+  8013xxxx and 13xxxx 
+  ====10xx  Execution Engine
+  
+  ====11xx  Metadata, TypeLib Export, and CLDB 
+  
+  ====12xx  MetaData Validator
+  
+  ====13xx  Debugger and Profiler errors
+  
+  ====14xx  Security
+  
+  ====15xx  BCL
+c 80131506 COR_E_EXECUTIONENGINE 
+  
+  ====1600 - 161F  Reflection
+  
+  ====1620 - 163F  System.IO 
+  
+  ====1640 - 165F  Security
+  
+  ====1660 - 16FF  BCL
+  
+  ====17xx  shim
+  
+  ====18xx  IL Verifier
+  
+  ====19xx  .NET Framework
+  
+  ====1Axx  .NET Framework
+  
+  ====1Bxx  MetaData Validator
+  
+  ====1Cxx  more debugger errors
+  
+  ====1Dxx  PE Format Validation
+  
+  ====1Exx  CLR Optimization Service errors
+  
+  ====1Fxx  NGEN errors
+  
+  ====30xx  VSA errors
+  
+  ====31xx  NGEN errors
+  
+  ====32xx  binder errors
+
+
+  802000xx  Com Dispatcher
+n ======04 DISP_E_PARAMNOTFOUND 
+n ======05 DISP_E_TYPEMISMATCH 
+n ======08 DISP_E_BADVARTYPE 
+n ======0A DISP_E_OVERFLOW 
+n ======12 DISP_E_DIVBYZERO 
+
+  Unknown
+n 80070002 CO_E_NOTINITIALIZED
